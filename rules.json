@@ -1,0 +1,24 @@
+{
+  "username": "AREA 51 Rules Bot",
+  "embeds": [
+    {
+      "title": "🛸 AREA 51 — Community Rules",
+      "description": "Welcome to Area 51! A community for everyone to chill, connect, make friends and enjoy gaming together.",
+      "color": 9133302,
+      "fields": [
+        {"name": "1. Respect Everyone", "value": "• Treat every member with respect.\n• No harassment, bullying, personal attacks or unnecessary arguments.\n• Respect everyone's opinions and boundaries."},
+        {"name": "2. Be Friendly", "value": "• Keep the community welcoming and comfortable.\n• Don't bother, annoy or intentionally disturb others.\n• Avoid unnecessary drama and toxicity."},
+        {"name": "3. Gaming Freedom", "value": "• Play whatever game you enjoy.\n• All games and gaming communities are welcome.\n• Don't judge anyone for the game they play."},
+        {"name": "4. No Hate or Discrimination", "value": "• No racism, religious hatred, caste-based insults or discrimination.\n• Don't target anyone for their background, language or identity."},
+        {"name": "5. Keep Chats Clean", "value": "• No spam, message flooding or excessive tagging.\n• No unwanted advertisements or suspicious links.\n• Use the appropriate channels."},
+        {"name": "6. Respect Privacy", "value": "• Never share personal information without permission.\n• No recording, screenshots or sharing private conversations to embarrass others."},
+        {"name": "7. No Unnecessary Drama", "value": "• Don't start fights or bring personal conflicts here.\n• If there's an issue, contact the staff team instead of escalating."},
+        {"name": "8. Follow Staff Instructions", "value": "• Respect moderators and administrators.\n• Don't argue with staff decisions in public channels.\n• If you disagree, discuss it respectfully."},
+        {"name": "9. No NSFW or Inappropriate Content", "value": "• Keep the community safe and comfortable for everyone.\n• Don't share explicit or inappropriate content."},
+        {"name": "10. Enjoy Your Stay", "value": "• Make friends, play games, share moments and have fun.\n• Be the reason someone enjoys being part of Area 51."},
+        {"name": "━━━━━━━━━━━━━━━━━━━━", "value": "**Remember: Respect is mutual.** Treat others the way you expect to be treated.\n\nWelcome to AREA 51. 👽"}
+      ],
+      "footer": {"text": "AREA 51 • Respect is mutual."}
+    }
+  ]
+}
