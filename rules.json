@@ -5,7 +5,6 @@
       "title": "🛸 AREA 51 — Community Rules",
       "description": "Welcome to Area 51! A community for everyone to chill, connect, make friends and enjoy gaming together.",
       "color": 9133302,
-      "image": {"url": "https://raw.githubusercontent.com/rayzzz6/DISCORD_WEBHOOK_URL/main/banner.png"},
       "fields": [
         {"name": "1. Respect Everyone", "value": "• Treat every member with respect.\n• No harassment, bullying, personal attacks or unnecessary arguments.\n• Respect everyone's opinions and boundaries."},
         {"name": "2. Be Friendly", "value": "• Keep the community welcoming and comfortable.\n• Don't bother, annoy or intentionally disturb others.\n• Avoid unnecessary drama and toxicity."},
