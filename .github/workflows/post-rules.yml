@@ -5,9 +5,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Send rules to Discord
+      - name: Send banner then rules
         env:
           WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          curl -fsS -X POST -H "Content-Type: application/json" \
-            -d @rules.json "$WEBHOOK"
+          curl -fsS -X POST -H "Content-Type: application/json" -d @banner.json "$WEBHOOK"
+          sleep 2
+          curl -fsS -X POST -H "Content-Type: application/json" -d @rules.json "$WEBHOOK"
