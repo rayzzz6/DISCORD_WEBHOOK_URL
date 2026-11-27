@@ -7,10 +7,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Send rules to Discord
         env:
-          TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          WEBHOOK: ${{ secrets.DISCORD_WEBHOOK_URL }}
         run: |
-          curl -fsS -X POST \
-            -H "Authorization: Bot $TOKEN" \
-            -H "Content-Type: application/json" \
-            -d @rules.json \
-            https://discord.com/api/v10/channels/1575597789512212570/messages
+          curl -fsS -X POST -H "Content-Type: application/json" \
+            -d @rules.json "$WEBHOOK"
